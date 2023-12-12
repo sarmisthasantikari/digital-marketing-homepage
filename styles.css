@@ -1,0 +1,70 @@
+#card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 40px 0;
+}
+
+.card:hover {
+    width: 110%;
+}
+
+#header-section {
+  padding: 8px 0;
+
+  background-color: rgb(16, 132, 158);
+}
+
+#book-your-consultation {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+#find-doctor-by-speciality {
+  color: rgb(13, 91, 207);
+}
+.box {
+  width: 130px;
+}
+#search-section {
+  display: flex;
+  padding: 8px 0;
+  box-sizing: border-box;
+  width: 65%;
+  margin: 0 auto;
+}
+.location {
+  margin-right: 12px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  min-height: 46px;
+  font-size: 15px;
+}
+.doctor {
+  padding-left: 35px;
+  margin-right: 12px;
+  border-radius: 5px;
+  min-height: 46px;
+  font-size: 15px;
+}
+.search-icon {
+  width: 46px;
+  height: 46px;
+  background-color: rgb(220, 199, 12);
+  border: 1 px solid rgb(220, 199, 12);
+  cursor: pointer;
+  border: 0.25rem;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+#navbarSupportedContent {
+    padding-left: 4rem;
+}
